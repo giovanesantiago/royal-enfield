@@ -39,6 +39,8 @@ font-family: 'Merienda', cursive;
 
 .modelo{
     font-size: 1.0em !important;
+    font-weight: bolder;
+    color: white !important;
 }
 .meio {
     text-align: center !important;
