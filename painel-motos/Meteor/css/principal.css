@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 
@@ -7,10 +8,12 @@
 *{padding: 0; margin: 0;}
 
 body{
-    background-color: black !important;
     color: white;
     margin: auto;
     text-align: center;
+}
+.apresentacao{
+    background-color: black !important;
 }
 
 .moto{
@@ -33,7 +36,88 @@ font-family: 'Merienda', cursive;
     color: rgba(255, 255, 255, 0.664);
     margin-bottom: 25px;
 }
+
 .modelo{
     font-size: 1.0em !important;
 }
+.meio {
+    text-align: center !important;
+    font-size: 0.7em;
+    width: 47%;
+    font-weight: bold !important;
+}
+.linha {
+    border-bottom: 1px solid black !important;
+    padding-bottom: 7px !important;
+}
+.contato{
+    margin-top: 30px;
+}
+.numero{
+    color: aliceblue;
+    text-decoration: none;
+}
 
+
+
+/* pagina 2*/
+#info{
+    background-color: rgba(0, 0, 0, 0.801);
+    padding-top: 30px;
+}
+.titulo2 h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.qd{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.493);
+}
+
+.qd2{
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.822);
+}
+
+#foto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foto {
+    background-color: black !important;
+}
+
+.titulo3{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+header{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+    color: white;
+}
+.redes a {
+    margin-left: 10px;
+    
+}
+.redes img{
+    width: 30px;
+    opacity: 45%;
+}
+.final {
+    background-color: #435A71;
+    height: 100px;
+    color: black;
+    font-weight: 500;
+    padding: 20px;
+}
